@@ -13,8 +13,8 @@ class Testprovider extends ServiceProvider
     {
         //
         App::bind('new',function(){
-            return App::make()
-        });        
+        });  
+
     }
 
     /**
